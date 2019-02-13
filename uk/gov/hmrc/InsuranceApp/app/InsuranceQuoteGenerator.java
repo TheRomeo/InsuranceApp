@@ -27,8 +27,8 @@ public class InsuranceQuoteGenerator {
 		
 		System.out.println("How old are you? ");
 		byte age = myScanner.nextByte();
-	
-		
+
+
 		System.out.println("What is the make of your vehicle? ");
 		String make = myScanner.next();
 		
@@ -39,7 +39,7 @@ public class InsuranceQuoteGenerator {
 		byte yearsDriving = myScanner.nextByte();
 
 		
-		System.out.println("do you have more than 1 years no claims? ");
+		System.out.println("How many years no claims do you have? ");
 		byte noClaims = myScanner.nextByte();
 	
 		
@@ -55,7 +55,7 @@ public class InsuranceQuoteGenerator {
 		String address = myScanner.next();
 		AddressType addressType = AddressType.valueOf(address);
 		
-		System.out.println("Do you have any points on your licence? ");
+		System.out.println("Do you have any points on your licence? (yes/no)");
 		String hasPoints = myScanner.next();
 		
 		PolicyController controller = new PolicyController();

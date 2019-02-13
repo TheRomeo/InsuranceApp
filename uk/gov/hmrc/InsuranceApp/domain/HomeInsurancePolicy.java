@@ -31,7 +31,7 @@ public class HomeInsurancePolicy extends Policy {
 		// TODO Auto-generated constructor stub
 	}
 	
-	//this is know as a mutator or a setter
+	//this is known as a mutator or a setter
 	public void setPropertyType(PropertyType propertyType) {
 		this.propertyType = propertyType;
 	}

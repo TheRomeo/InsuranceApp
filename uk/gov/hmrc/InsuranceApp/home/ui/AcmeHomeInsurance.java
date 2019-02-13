@@ -72,11 +72,11 @@ public class AcmeHomeInsurance {
 			public void actionPerformed(ActionEvent arg0) {
 				//TODO add code to calculate the premium
 				//resolve how to get the address, age, name
-				HomeInsurancePolicy homeInsurance = new HomeInsurancePolicy(address, age, name);
-				homeInsurance.setOwnership(propertyType);
-				homeInsurance.setConstructiontype(ownership);
-				homeInsurance.setPropertyType(propertyType);
-				double premium = homeInsurance.getPremium();
+//				HomeInsurancePolicy homeInsurance = new HomeInsurancePolicy(address, age, name);
+//				homeInsurance.setOwnership(propertyType);
+//				homeInsurance.setConstructiontype(ownership);
+//				homeInsurance.setPropertyType(propertyType);
+//				double premium = homeInsurance.getPremium();
 				//set the value in the ui
 			}
 		});
