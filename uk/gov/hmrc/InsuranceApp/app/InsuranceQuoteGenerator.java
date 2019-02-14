@@ -51,7 +51,7 @@ public class InsuranceQuoteGenerator {
 		String storage = myScanner.next();
 
 		
-		System.out.printf("Do you live in A - England, B - Scotland, C - Wales");
+		System.out.println("Do you live in A - England, B - Scotland, C - Wales");
 		String address = myScanner.next();
 		AddressType addressType = AddressType.valueOf(address);
 		
